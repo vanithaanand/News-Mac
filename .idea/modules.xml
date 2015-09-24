@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Dinamalar.iml" filepath="$PROJECT_DIR$/Dinamalar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/News-Mac.iml" filepath="$PROJECT_DIR$/News-Mac.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/customtabs/customtabs.iml" filepath="$PROJECT_DIR$/customtabs/customtabs.iml" />
       <module fileurl="file://$PROJECT_DIR$/shared/shared.iml" filepath="$PROJECT_DIR$/shared/shared.iml" />

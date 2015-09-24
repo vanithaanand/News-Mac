@@ -2,8 +2,6 @@ package androidnanan.com.dinamalar;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
-import android.text.Html;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,17 +11,11 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 import org.jsoup.Jsoup;
-import org.jsoup.helper.StringUtil;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
-import java.sql.Time;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Date;
 import java.util.List;
 
 import androidnanan.com.dinamalar.util.RippleForegroundListener;

@@ -1,15 +1,11 @@
 package androidnanan.com.dinamalar;
 
-import android.util.Log;
-
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Created by anand on 8/30/15.

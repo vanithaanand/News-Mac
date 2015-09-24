@@ -1,11 +1,9 @@
 package androidnanan.com.dinamalar;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.AsyncTask;
-import android.support.customtabs.CustomTabsIntent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -19,21 +17,8 @@ import android.view.animation.LayoutAnimationController;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-
-import org.xmlpull.v1.XmlPullParser;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
-
-import androidnanan.com.dinamalar.tab.CustomTabActivityHelper;
-import androidnanan.com.dinamalar.tab.WebviewFallback;
 
 public class MainActivity extends AppCompatActivity {
 
