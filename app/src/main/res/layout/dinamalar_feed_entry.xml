@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@id/rippleForegroundListenerView"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    card_view:cardCornerRadius="4dp"
+    android:clickable="true"
+    android:foreground="?selectableItemBackground"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:minHeight="?listPreferredItemHeight"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        >
+
+
+<ImageView
+    android:id="@+id/thumbnail"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@mipmap/ic_launcher"
+    android:scaleType="centerCrop"
+    android:padding="4dp"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:minHeight="?listPreferredItemHeight"
+        android:orientation="vertical"
+
+        >
+
+
+        <TextView
+
+            android:id="@+id/dinamalarTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:maxLines="3"
+            android:ellipsize="end"
+
+
+            >
+
+        </TextView>
+        <!--<TextView
+
+            android:id="@+id/dinamalarDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+
+
+            >
+
+        </TextView>-->
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="hi"
+            />
+
+</LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dinamalar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_first_page_news">முதல் பக்க செய்திகள்</string>
+    <string name="action_politics_page_news">அரசியல் செய்திகள்</string>
+    <string name="action_general_page_news">பொது செய்திகள்</string>
+    <string name="action_incidents_page_news">சம்பவங்கள்</string>
+    <string name="action_court_page_news">கோர்ட் செய்திகள்</string>
+    <string name="action_tamilnadu_page_news">தமிழக சிறப்புச் செய்திகள்</string>
+    <string name="action_delhi_page_news">டெல்லி உஷ்</string>
+    <string name="action_international_page_news">உலக செய்திகள்</string>
+    <string name="action_business_page_news">வர்த்தக செய்திகள்</string>
+    <string name="action_cinema_page_news">சினிமா செய்திகள்</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_webview">webview</string>
+    <string name="advertisement">Advertisement</string>
+
+</resources>
